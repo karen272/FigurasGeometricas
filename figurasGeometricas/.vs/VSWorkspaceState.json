@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\figurasGeometricas",
+    "\\figurasGeometricas\\Controlador",
+    "\\figurasGeometricas\\Interfaz",
+    "\\figurasGeometricas\\Modelo",
+    "\\figurasGeometricas\\Vistas"
+  ],
+  "SelectedNode": "\\figurasGeometricas\\Vistas\\ViewCirculo.cs",
+  "PreviewInSolutionExplorer": false
+}
