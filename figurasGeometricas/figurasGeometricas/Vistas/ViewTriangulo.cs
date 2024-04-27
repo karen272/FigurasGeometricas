@@ -44,5 +44,10 @@ namespace figurasGeometricas.Vistas
                 lblResulTipo.Text = tipo;
             }
         }
+
+        private void ViewTriangulo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -32,13 +32,20 @@
             this.btnCuadrado = new System.Windows.Forms.Button();
             this.btnTriangulo = new System.Windows.Forms.Button();
             this.lblSelecFigura = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCirculo
             // 
-            this.btnCirculo.Location = new System.Drawing.Point(54, 197);
+            this.btnCirculo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.btnCirculo.Location = new System.Drawing.Point(42, 297);
             this.btnCirculo.Name = "btnCirculo";
-            this.btnCirculo.Size = new System.Drawing.Size(125, 42);
+            this.btnCirculo.Size = new System.Drawing.Size(171, 42);
             this.btnCirculo.TabIndex = 0;
             this.btnCirculo.Text = "Circulo";
             this.btnCirculo.UseVisualStyleBackColor = true;
@@ -46,9 +53,10 @@
             // 
             // btnCuadrado
             // 
-            this.btnCuadrado.Location = new System.Drawing.Point(584, 197);
+            this.btnCuadrado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.btnCuadrado.Location = new System.Drawing.Point(535, 297);
             this.btnCuadrado.Name = "btnCuadrado";
-            this.btnCuadrado.Size = new System.Drawing.Size(125, 42);
+            this.btnCuadrado.Size = new System.Drawing.Size(171, 42);
             this.btnCuadrado.TabIndex = 1;
             this.btnCuadrado.Text = "Cuadrado";
             this.btnCuadrado.UseVisualStyleBackColor = true;
@@ -56,9 +64,10 @@
             // 
             // btnTriangulo
             // 
-            this.btnTriangulo.Location = new System.Drawing.Point(299, 336);
+            this.btnTriangulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.btnTriangulo.Location = new System.Drawing.Point(299, 297);
             this.btnTriangulo.Name = "btnTriangulo";
-            this.btnTriangulo.Size = new System.Drawing.Size(125, 42);
+            this.btnTriangulo.Size = new System.Drawing.Size(171, 42);
             this.btnTriangulo.TabIndex = 2;
             this.btnTriangulo.Text = "Triangulo";
             this.btnTriangulo.UseVisualStyleBackColor = true;
@@ -67,17 +76,52 @@
             // lblSelecFigura
             // 
             this.lblSelecFigura.AutoSize = true;
-            this.lblSelecFigura.Location = new System.Drawing.Point(335, 57);
+            this.lblSelecFigura.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.lblSelecFigura.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblSelecFigura.Location = new System.Drawing.Point(294, 18);
             this.lblSelecFigura.Name = "lblSelecFigura";
-            this.lblSelecFigura.Size = new System.Drawing.Size(89, 13);
+            this.lblSelecFigura.Size = new System.Drawing.Size(180, 25);
             this.lblSelecFigura.TabIndex = 3;
             this.lblSelecFigura.Text = "Selecione Figura:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::figurasGeometricas.Properties.Resources.Triangulo;
+            this.pictureBox1.Location = new System.Drawing.Point(299, 64);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(171, 227);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::figurasGeometricas.Properties.Resources.Cuadrado;
+            this.pictureBox3.Location = new System.Drawing.Point(535, 64);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(171, 227);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::figurasGeometricas.Properties.Resources.Circulo1;
+            this.pictureBox2.Location = new System.Drawing.Point(42, 64);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(171, 227);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lblSelecFigura);
             this.Controls.Add(this.btnTriangulo);
             this.Controls.Add(this.btnCuadrado);
@@ -85,6 +129,9 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -96,6 +143,9 @@
         private System.Windows.Forms.Button btnCuadrado;
         private System.Windows.Forms.Button btnTriangulo;
         private System.Windows.Forms.Label lblSelecFigura;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -88,6 +88,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Vistas\ViewCirculo.resx">
       <DependentUpon>ViewCirculo.cs</DependentUpon>
@@ -111,6 +112,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Circulo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Triangulo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuadrado.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
