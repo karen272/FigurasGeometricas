@@ -48,5 +48,17 @@ namespace figurasGeometricas.Controlador
         {
             return triangulo.determinarTipoTriangulo();
         }
+
+
+        internal static double calcularPerimetroPoligono(Poligono poligono)
+        {
+            return poligono.calcularPerimetro();
+        }
+
+        internal static double calcularAreaPoligono(Poligono poligono)
+        {
+            return poligono.calcularArea();
+        }
+
     }
 }

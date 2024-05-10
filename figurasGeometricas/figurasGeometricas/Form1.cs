@@ -40,5 +40,11 @@ namespace figurasGeometricas
             ViewTriangulo triangulo = new ViewTriangulo();
             triangulo.ShowDialog();
         }
+
+        private void btnPoligono_Click(object sender, EventArgs e)
+        {
+            ViewPoligono poligono = new ViewPoligono();
+            poligono.ShowDialog();
+        }
     }
 }

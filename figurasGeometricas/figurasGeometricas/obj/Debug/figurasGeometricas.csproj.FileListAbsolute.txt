@@ -11,3 +11,4 @@ C:\Users\karen\source\repos\figurasGeometricas\figurasGeometricas\obj\Debug\figu
 C:\Users\karen\source\repos\figurasGeometricas\figurasGeometricas\obj\Debug\figurasGeometricas.Vistas.ViewCirculo.resources
 C:\Users\karen\source\repos\figurasGeometricas\figurasGeometricas\obj\Debug\figurasGeometricas.Vistas.ViewCuadrado.resources
 C:\Users\karen\source\repos\figurasGeometricas\figurasGeometricas\obj\Debug\figurasGeometricas.Vistas.ViewTriangulo.resources
+C:\Users\karen\source\repos\figurasGeometricas\figurasGeometricas\obj\Debug\figurasGeometricas.Vistas.ViewPoligono.resources
